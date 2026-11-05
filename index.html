@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descubrí rutas, paisajes y escapadas inolvidables por Uruguay.">
+  <title>Rutas Uruguayas | Descubrí Uruguay</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">U</span> Rutas Uruguayas
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinos">Rutas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#informacion">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="inicio" aria-label="Destinos destacados">
+      <div class="container hero-container py-3 py-md-4">
+      <div id="carruselDestacados" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselDestacados" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Ver destino 1"></button>
+          <button type="button" data-bs-target="#carruselDestacados" data-bs-slide-to="1" aria-label="Ver destino 2"></button>
+          <button type="button" data-bs-target="#carruselDestacados" data-bs-slide-to="2" aria-label="Ver destino 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 hero-image"
+              src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&amp;fit=crop&amp;w=2000&amp;q=85"
+              alt="Olas llegando a una playa uruguaya">
+            <div class="carousel-caption">
+              <h1>Descubrí Uruguay a tu manera</h1>
+              <p>Playas, pueblos con historia y caminos para disfrutar sin apuro.</p>
+              <a class="btn btn-teal btn-sm px-4" href="#destinos">Conocé las rutas</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 hero-image"
+              src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&amp;fit=crop&amp;w=2000&amp;q=85"
+              alt="Paisaje natural de campo y costa">
+            <div class="carousel-caption">
+              <h2>De la costa al campo</h2>
+              <p>Encontrá tu próxima escapada entre paisajes únicos y sabores locales.</p>
+              <a class="btn btn-teal btn-sm px-4" href="#destinos">Ver destinos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 hero-image"
+              src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;w=2000&amp;q=85"
+              alt="Paisaje abierto para recorrer en Uruguay">
+            <div class="carousel-caption">
+              <h2>Tu próxima aventura está cerca</h2>
+              <p>Armá el recorrido, prepará el mate y salí a descubrir Uruguay.</p>
+              <a class="btn btn-teal btn-sm px-4" href="#contacto">Planificá tu viaje</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselDestacados" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselDestacados" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      </div>
+    </section>
+
+    <section id="destinos" class="py-5 py-lg-6">
+      <div class="container py-4">
+        <div class="row align-items-end mb-4 mb-lg-5">
+          <div class="col-lg-8">
+            <p class="section-kicker mb-2">Rutas para recorrer Uruguay</p>
+            <h2 class="section-title display-5 mb-0">Una escapada para cada viajero</h2>
+          </div>
+          <div class="col-lg-4 mt-3 mt-lg-0">
+            <p class="text-secondary mb-0">Desde la costa atlántica hasta ciudades llenas de historia, Uruguay te espera.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <article class="card destination-card h-100">
+              <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                class="card-img-top" alt="Costa oceánica y olas en Rocha">
+              <div class="card-body d-flex flex-column p-4">
+                <span class="section-kicker mb-2">Rocha</span>
+                <h3 class="card-title h4">Cabo Polonio</h3>
+                <p class="card-text text-secondary">Dunas, mar abierto y noches tranquilas en uno de los rincones más especiales de la costa uruguaya.</p>
+                <a href="#contacto" class="btn btn-outline-success rounded-pill mt-auto align-self-start px-4">Conocer más</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-4">
+            <article class="card destination-card h-100">
+              <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                class="card-img-top" alt="Arquitectura histórica en una ciudad">
+              <div class="card-body d-flex flex-column p-4">
+                <span class="section-kicker mb-2">Colonia</span>
+                <h3 class="card-title h4">Colonia del Sacramento</h3>
+                <p class="card-text text-secondary">Calles empedradas, fachadas coloniales y atardeceres junto al Río de la Plata.</p>
+                <a href="#contacto" class="btn btn-outline-success rounded-pill mt-auto align-self-start px-4">Conocer más</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-4">
+            <article class="card destination-card h-100">
+              <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                class="card-img-top" alt="Paisaje de playa y naturaleza en Uruguay">
+              <div class="card-body d-flex flex-column p-4">
+                <span class="section-kicker mb-2">Maldonado</span>
+                <h3 class="card-title h4">Punta del Este</h3>
+                <p class="card-text text-secondary">Playas para todos los gustos, paseos costeros y una ciudad que siempre invita a volver.</p>
+                <a href="#contacto" class="btn btn-outline-success rounded-pill mt-auto align-self-start px-4">Conocer más</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="informacion" class="container py-4 py-lg-5">
+      <div class="featured-section p-4 p-md-5">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6">
+            <p class="section-kicker mb-2">Viajá y descubrí</p>
+            <h2 class="section-title h2 mb-3">Información destacada</h2>
+            <p class="text-secondary">Uruguay se disfruta sin apuro: recorré sus departamentos, conocé su gente y encontrá paisajes distintos a pocos kilómetros de distancia.</p>
+            <ul class="list-unstyled text-secondary mb-0">
+              <li class="mb-2"><span class="text-success me-2" aria-hidden="true">✓</span>Ideas de rutas para cada época del año.</li>
+              <li class="mb-2"><span class="text-success me-2" aria-hidden="true">✓</span>Playas, naturaleza, cultura y gastronomía.</li>
+              <li><span class="text-success me-2" aria-hidden="true">✓</span>Recorridos flexibles para viajar a tu ritmo.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img class="featured-image" src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+              alt="Paisaje natural para una escapada por Uruguay">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section py-5 py-lg-6">
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <p class="section-kicker mb-2">¿Planeamos tu próxima escapada?</p>
+            <h2 class="section-title display-5">Contanos qué rincón de Uruguay querés conocer.</h2>
+            <p class="text-secondary mt-3">Dejanos tu consulta y empezá a organizar tu próximo viaje por Uruguay.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="card contact-panel">
+              <div class="card-body p-4 p-md-5">
+                <form id="formContacto" class="needs-validation" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="nombre" class="form-label fw-semibold">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                      <div class="invalid-feedback">Ingresá tu nombre.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email" class="form-label fw-semibold">Correo electrónico</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+                      <div class="invalid-feedback">Ingresá un correo electrónico válido.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="asunto" class="form-label fw-semibold">Motivo / Asunto</label>
+                      <input type="text" class="form-control" id="asunto" name="asunto" placeholder="¿En qué podemos ayudarte?" required>
+                      <div class="invalid-feedback">Completá el asunto de tu consulta.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="mensaje" class="form-label fw-semibold">Mensaje</label>
+                      <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje..." required></textarea>
+                      <div class="invalid-feedback">Escribí un mensaje antes de enviar.</div>
+                    </div>
+                    <div class="col-12 d-flex flex-column flex-sm-row align-items-sm-center gap-3">
+                      <button class="btn btn-teal rounded-pill px-4" type="submit">Enviar consulta</button>
+                      <span id="estadoFormulario" class="small text-success" role="status" aria-live="polite"></span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-6">
+          <a class="fw-bold fs-5" href="#inicio">Rutas Uruguayas</a>
+          <p class="small mb-0 mt-1 text-white-50">© 2026 Rutas Uruguayas. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-unstyled d-flex flex-wrap gap-3 gap-md-4 justify-content-md-end mb-0">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#destinos">Rutas</a></li>
+            <li><a href="#informacion">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="mailto:hola@rutasuruguayas.com">Escribinos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
